@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B37053DD2107E85B00AAB26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053DC2107E85B00AAB26E /* AppDelegate.swift */; };
+		B37053DF2107E85B00AAB26E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053DE2107E85B00AAB26E /* ViewController.swift */; };
+		B37053E22107E85B00AAB26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37053E02107E85B00AAB26E /* Main.storyboard */; };
+		B37053E42107E85C00AAB26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37053E32107E85C00AAB26E /* Assets.xcassets */; };
+		B37053E72107E85C00AAB26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37053E52107E85C00AAB26E /* LaunchScreen.storyboard */; };
+		B37053F22107E85C00AAB26E /* Laundromat_DelivrmatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053F12107E85C00AAB26E /* Laundromat_DelivrmatTests.swift */; };
+		B37053FD2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053FC2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B37053EE2107E85C00AAB26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37053D12107E85B00AAB26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37053D82107E85B00AAB26E;
+			remoteInfo = "Laundromat Delivrmat";
+		};
+		B37053F92107E85D00AAB26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37053D12107E85B00AAB26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37053D82107E85B00AAB26E;
+			remoteInfo = "Laundromat Delivrmat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundromat Delivrmat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37053DC2107E85B00AAB26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B37053DE2107E85B00AAB26E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B37053E12107E85B00AAB26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B37053E32107E85C00AAB26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37053E62107E85C00AAB26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37053E82107E85C00AAB26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37053ED2107E85C00AAB26E /* Laundromat DelivrmatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laundromat DelivrmatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37053F12107E85C00AAB26E /* Laundromat_DelivrmatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundromat_DelivrmatTests.swift; sourceTree = "<group>"; };
+		B37053F32107E85C00AAB26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37053F82107E85D00AAB26E /* Laundromat DelivrmatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laundromat DelivrmatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37053FC2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundromat_DelivrmatUITests.swift; sourceTree = "<group>"; };
+		B37053FE2107E85D00AAB26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37053D62107E85B00AAB26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053EA2107E85C00AAB26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053F52107E85D00AAB26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B37053D02107E85B00AAB26E = {
+			isa = PBXGroup;
+			children = (
+				B37053DB2107E85B00AAB26E /* Laundromat Delivrmat */,
+				B37053F02107E85C00AAB26E /* Laundromat DelivrmatTests */,
+				B37053FB2107E85D00AAB26E /* Laundromat DelivrmatUITests */,
+				B37053DA2107E85B00AAB26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B37053DA2107E85B00AAB26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */,
+				B37053ED2107E85C00AAB26E /* Laundromat DelivrmatTests.xctest */,
+				B37053F82107E85D00AAB26E /* Laundromat DelivrmatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37053DB2107E85B00AAB26E /* Laundromat Delivrmat */ = {
+			isa = PBXGroup;
+			children = (
+				B37053DC2107E85B00AAB26E /* AppDelegate.swift */,
+				B37053DE2107E85B00AAB26E /* ViewController.swift */,
+				B37053E02107E85B00AAB26E /* Main.storyboard */,
+				B37053E32107E85C00AAB26E /* Assets.xcassets */,
+				B37053E52107E85C00AAB26E /* LaunchScreen.storyboard */,
+				B37053E82107E85C00AAB26E /* Info.plist */,
+			);
+			path = "Laundromat Delivrmat";
+			sourceTree = "<group>";
+		};
+		B37053F02107E85C00AAB26E /* Laundromat DelivrmatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B37053F12107E85C00AAB26E /* Laundromat_DelivrmatTests.swift */,
+				B37053F32107E85C00AAB26E /* Info.plist */,
+			);
+			path = "Laundromat DelivrmatTests";
+			sourceTree = "<group>";
+		};
+		B37053FB2107E85D00AAB26E /* Laundromat DelivrmatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B37053FC2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift */,
+				B37053FE2107E85D00AAB26E /* Info.plist */,
+			);
+			path = "Laundromat DelivrmatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37053D82107E85B00AAB26E /* Laundromat Delivrmat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37054012107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat Delivrmat" */;
+			buildPhases = (
+				B37053D52107E85B00AAB26E /* Sources */,
+				B37053D62107E85B00AAB26E /* Frameworks */,
+				B37053D72107E85B00AAB26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laundromat Delivrmat";
+			productName = "Laundromat Delivrmat";
+			productReference = B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B37053EC2107E85C00AAB26E /* Laundromat DelivrmatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37054042107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatTests" */;
+			buildPhases = (
+				B37053E92107E85C00AAB26E /* Sources */,
+				B37053EA2107E85C00AAB26E /* Frameworks */,
+				B37053EB2107E85C00AAB26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37053EF2107E85C00AAB26E /* PBXTargetDependency */,
+			);
+			name = "Laundromat DelivrmatTests";
+			productName = "Laundromat DelivrmatTests";
+			productReference = B37053ED2107E85C00AAB26E /* Laundromat DelivrmatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B37053F72107E85D00AAB26E /* Laundromat DelivrmatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37054072107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatUITests" */;
+			buildPhases = (
+				B37053F42107E85D00AAB26E /* Sources */,
+				B37053F52107E85D00AAB26E /* Frameworks */,
+				B37053F62107E85D00AAB26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37053FA2107E85D00AAB26E /* PBXTargetDependency */,
+			);
+			name = "Laundromat DelivrmatUITests";
+			productName = "Laundromat DelivrmatUITests";
+			productReference = B37053F82107E85D00AAB26E /* Laundromat DelivrmatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37053D12107E85B00AAB26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ICI Technologies";
+				TargetAttributes = {
+					B37053D82107E85B00AAB26E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B37053EC2107E85C00AAB26E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B37053D82107E85B00AAB26E;
+					};
+					B37053F72107E85D00AAB26E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B37053D82107E85B00AAB26E;
+					};
+				};
+			};
+			buildConfigurationList = B37053D42107E85B00AAB26E /* Build configuration list for PBXProject "Laundromat Delivrmat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B37053D02107E85B00AAB26E;
+			productRefGroup = B37053DA2107E85B00AAB26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37053D82107E85B00AAB26E /* Laundromat Delivrmat */,
+				B37053EC2107E85C00AAB26E /* Laundromat DelivrmatTests */,
+				B37053F72107E85D00AAB26E /* Laundromat DelivrmatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B37053D72107E85B00AAB26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37053E72107E85C00AAB26E /* LaunchScreen.storyboard in Resources */,
+				B37053E42107E85C00AAB26E /* Assets.xcassets in Resources */,
+				B37053E22107E85B00AAB26E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053EB2107E85C00AAB26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053F62107E85D00AAB26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37053D52107E85B00AAB26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37053DF2107E85B00AAB26E /* ViewController.swift in Sources */,
+				B37053DD2107E85B00AAB26E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053E92107E85C00AAB26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37053F22107E85C00AAB26E /* Laundromat_DelivrmatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37053F42107E85D00AAB26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37053FD2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37053EF2107E85C00AAB26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37053D82107E85B00AAB26E /* Laundromat Delivrmat */;
+			targetProxy = B37053EE2107E85C00AAB26E /* PBXContainerItemProxy */;
+		};
+		B37053FA2107E85D00AAB26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37053D82107E85B00AAB26E /* Laundromat Delivrmat */;
+			targetProxy = B37053F92107E85D00AAB26E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B37053E02107E85B00AAB26E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37053E12107E85B00AAB26E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B37053E52107E85C00AAB26E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37053E62107E85C00AAB26E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B37053FF2107E85D00AAB26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B37054002107E85D00AAB26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B37054022107E85D00AAB26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat Delivrmat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B37054032107E85D00AAB26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat Delivrmat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B37054052107E85D00AAB26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat DelivrmatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-DelivrmatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laundromat Delivrmat.app/Laundromat Delivrmat";
+			};
+			name = Debug;
+		};
+		B37054062107E85D00AAB26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat DelivrmatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-DelivrmatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laundromat Delivrmat.app/Laundromat Delivrmat";
+			};
+			name = Release;
+		};
+		B37054082107E85D00AAB26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat DelivrmatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-DelivrmatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laundromat Delivrmat";
+			};
+			name = Debug;
+		};
+		B37054092107E85D00AAB26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = "Laundromat DelivrmatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-DelivrmatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laundromat Delivrmat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37053D42107E85B00AAB26E /* Build configuration list for PBXProject "Laundromat Delivrmat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37053FF2107E85D00AAB26E /* Debug */,
+				B37054002107E85D00AAB26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37054012107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat Delivrmat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37054022107E85D00AAB26E /* Debug */,
+				B37054032107E85D00AAB26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37054042107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37054052107E85D00AAB26E /* Debug */,
+				B37054062107E85D00AAB26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37054072107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37054082107E85D00AAB26E /* Debug */,
+				B37054092107E85D00AAB26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37053D12107E85B00AAB26E /* Project object */;
+}
