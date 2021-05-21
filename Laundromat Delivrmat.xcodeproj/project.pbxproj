@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245F9B4C9068FDF2445B3720 /* libPods-Laundromat DelivrmatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931D65D2350FE73ED4317DA /* libPods-Laundromat DelivrmatUITests.a */; };
+		5AB088A2C1633734D3D2D863 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF451AE695BCC302515C03 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		B2F81F7976DE9A16136B1F37 /* libPods-Laundromat Delivrmat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20A1EE1D23B08026B5F086 /* libPods-Laundromat Delivrmat.a */; };
+		B325A5B121599432003D11BE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B325A5B021599432003D11BE /* NotificationService.swift */; };
+		B325A5B521599432003D11BE /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B325A5AE21599432003D11BE /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B325A5BE2159A278003D11BE /* libFlurry_9.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33DFEF22124731A000ED065 /* libFlurry_9.0.0.a */; };
+		B33DFEDB212463FC000ED065 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33DFEDA212463FC000ED065 /* Security.framework */; };
+		B33DFEDD21246408000ED065 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33DFEDC21246407000ED065 /* SystemConfiguration.framework */; };
+		B33DFEEB21246928000ED065 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33DFEEA21246928000ED065 /* CoreLocation.framework */; };
 		B37053DD2107E85B00AAB26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053DC2107E85B00AAB26E /* AppDelegate.swift */; };
 		B37053DF2107E85B00AAB26E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053DE2107E85B00AAB26E /* ViewController.swift */; };
 		B37053E22107E85B00AAB26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37053E02107E85B00AAB26E /* Main.storyboard */; };
@@ -14,9 +23,17 @@
 		B37053E72107E85C00AAB26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37053E52107E85C00AAB26E /* LaunchScreen.storyboard */; };
 		B37053F22107E85C00AAB26E /* Laundromat_DelivrmatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053F12107E85C00AAB26E /* Laundromat_DelivrmatTests.swift */; };
 		B37053FD2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37053FC2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift */; };
+		BD47C145AB7D13B96AF71A52 /* libPods-Laundromat DelivrmatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B252AEFE4D33B89A963016E7 /* libPods-Laundromat DelivrmatTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B325A5B321599432003D11BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37053D12107E85B00AAB26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B325A5AD21599432003D11BE;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		B37053EE2107E85C00AAB26E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B37053D12107E85B00AAB26E /* Project object */;
@@ -33,8 +50,51 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B325A5B921599432003D11BE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B325A5B521599432003D11BE /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B331745D21531758000A357F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundromat Delivrmat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EE040BA746771179BA88D2 /* Pods-Laundromat DelivrmatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat DelivrmatTests.debug.xcconfig"; path = "Target Support Files/Pods-Laundromat DelivrmatTests/Pods-Laundromat DelivrmatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC27EED7A83229A3A73C2BF /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8A20A1EE1D23B08026B5F086 /* libPods-Laundromat Delivrmat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Laundromat Delivrmat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2B7D0C5F654217DE92A25F /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B252AEFE4D33B89A963016E7 /* libPods-Laundromat DelivrmatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Laundromat DelivrmatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B325A5AE21599432003D11BE /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B325A5B021599432003D11BE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B325A5B221599432003D11BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B325A5BC2159A259003D11BE /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flurry; sourceTree = "<group>"; };
+		B33DFEDA212463FC000ED065 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B33DFEDC21246407000ED065 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B33DFEE1212464BF000ED065 /* bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridge-header.h"; sourceTree = "<group>"; };
+		B33DFEE4212468A9000ED065 /* libFlurry_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_9.0.0.a; path = "Laundromat Delivrmat/Flurry/libFlurry_9.0.0.a"; sourceTree = "<group>"; };
+		B33DFEE621246911000ED065 /* libFlurryTVOS_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryTVOS_9.0.0.a; path = "Laundromat Delivrmat/Flurry/libFlurryTVOS_9.0.0.a"; sourceTree = "<group>"; };
+		B33DFEE721246911000ED065 /* libFlurryWatch_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryWatch_9.0.0.a; path = "Laundromat Delivrmat/Flurry/libFlurryWatch_9.0.0.a"; sourceTree = "<group>"; };
+		B33DFEEA21246928000ED065 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B33DFEF22124731A000ED065 /* libFlurry_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_9.0.0.a; path = "Laundromat Delivrmat/Flurry/Flurry/libFlurry_9.0.0.a"; sourceTree = "<group>"; };
+		B33DFEF32124731A000ED065 /* libFlurryTVOS_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryTVOS_9.0.0.a; path = "Laundromat Delivrmat/Flurry/Flurry/libFlurryTVOS_9.0.0.a"; sourceTree = "<group>"; };
+		B33DFEF42124731A000ED065 /* libFlurryWatch_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryWatch_9.0.0.a; path = "Laundromat Delivrmat/Flurry/Flurry/libFlurryWatch_9.0.0.a"; sourceTree = "<group>"; };
+		B37053D92107E85B00AAB26E /* FD Laundromat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FD Laundromat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37053DC2107E85B00AAB26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37053DE2107E85B00AAB26E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B37053E12107E85B00AAB26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,13 +107,34 @@
 		B37053F82107E85D00AAB26E /* Laundromat DelivrmatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laundromat DelivrmatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37053FC2107E85D00AAB26E /* Laundromat_DelivrmatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundromat_DelivrmatUITests.swift; sourceTree = "<group>"; };
 		B37053FE2107E85D00AAB26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F1DC2152AC0B5AFDFF7450 /* Pods-Laundromat Delivrmat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat Delivrmat.release.xcconfig"; path = "Target Support Files/Pods-Laundromat Delivrmat/Pods-Laundromat Delivrmat.release.xcconfig"; sourceTree = "<group>"; };
+		B3FC506021236D380075BE94 /* Laundromat Delivrmat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Laundromat Delivrmat.entitlements"; sourceTree = "<group>"; };
+		B518AE95B672961639FC386C /* Pods-Laundromat Delivrmat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat Delivrmat.debug.xcconfig"; path = "Target Support Files/Pods-Laundromat Delivrmat/Pods-Laundromat Delivrmat.debug.xcconfig"; sourceTree = "<group>"; };
+		C222B13BCBC388CEFDD3E80C /* Pods-Laundromat DelivrmatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat DelivrmatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Laundromat DelivrmatUITests/Pods-Laundromat DelivrmatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C960EDF988D509C695A23069 /* Pods-Laundromat DelivrmatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat DelivrmatTests.release.xcconfig"; path = "Target Support Files/Pods-Laundromat DelivrmatTests/Pods-Laundromat DelivrmatTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBFF451AE695BCC302515C03 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEB67B811377E0E2795F958 /* Pods-Laundromat DelivrmatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundromat DelivrmatUITests.release.xcconfig"; path = "Target Support Files/Pods-Laundromat DelivrmatUITests/Pods-Laundromat DelivrmatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F931D65D2350FE73ED4317DA /* libPods-Laundromat DelivrmatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Laundromat DelivrmatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B325A5AB21599432003D11BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB088A2C1633734D3D2D863 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B37053D62107E85B00AAB26E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33DFEEB21246928000ED065 /* CoreLocation.framework in Frameworks */,
+				B325A5BE2159A278003D11BE /* libFlurry_9.0.0.a in Frameworks */,
+				B33DFEDD21246408000ED065 /* SystemConfiguration.framework in Frameworks */,
+				B33DFEDB212463FC000ED065 /* Security.framework in Frameworks */,
+				B2F81F7976DE9A16136B1F37 /* libPods-Laundromat Delivrmat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD47C145AB7D13B96AF71A52 /* libPods-Laundromat DelivrmatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,28 +150,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245F9B4C9068FDF2445B3720 /* libPods-Laundromat DelivrmatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A5B7F861064BCDFB8D1E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33DFEF22124731A000ED065 /* libFlurry_9.0.0.a */,
+				B33DFEF32124731A000ED065 /* libFlurryTVOS_9.0.0.a */,
+				B33DFEF42124731A000ED065 /* libFlurryWatch_9.0.0.a */,
+				B33DFEEA21246928000ED065 /* CoreLocation.framework */,
+				B33DFEE621246911000ED065 /* libFlurryTVOS_9.0.0.a */,
+				B33DFEE721246911000ED065 /* libFlurryWatch_9.0.0.a */,
+				B33DFEE4212468A9000ED065 /* libFlurry_9.0.0.a */,
+				B33DFEDC21246407000ED065 /* SystemConfiguration.framework */,
+				B33DFEDA212463FC000ED065 /* Security.framework */,
+				8A20A1EE1D23B08026B5F086 /* libPods-Laundromat Delivrmat.a */,
+				B252AEFE4D33B89A963016E7 /* libPods-Laundromat DelivrmatTests.a */,
+				F931D65D2350FE73ED4317DA /* libPods-Laundromat DelivrmatUITests.a */,
+				CBFF451AE695BCC302515C03 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFEEBB8060DC4A6DA47F6FD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B518AE95B672961639FC386C /* Pods-Laundromat Delivrmat.debug.xcconfig */,
+				B3F1DC2152AC0B5AFDFF7450 /* Pods-Laundromat Delivrmat.release.xcconfig */,
+				25EE040BA746771179BA88D2 /* Pods-Laundromat DelivrmatTests.debug.xcconfig */,
+				C960EDF988D509C695A23069 /* Pods-Laundromat DelivrmatTests.release.xcconfig */,
+				C222B13BCBC388CEFDD3E80C /* Pods-Laundromat DelivrmatUITests.debug.xcconfig */,
+				CDEB67B811377E0E2795F958 /* Pods-Laundromat DelivrmatUITests.release.xcconfig */,
+				8B2B7D0C5F654217DE92A25F /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				5AC27EED7A83229A3A73C2BF /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B325A5AF21599432003D11BE /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B325A5B021599432003D11BE /* NotificationService.swift */,
+				B325A5B221599432003D11BE /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		B37053D02107E85B00AAB26E = {
 			isa = PBXGroup;
 			children = (
 				B37053DB2107E85B00AAB26E /* Laundromat Delivrmat */,
 				B37053F02107E85C00AAB26E /* Laundromat DelivrmatTests */,
 				B37053FB2107E85D00AAB26E /* Laundromat DelivrmatUITests */,
+				B325A5AF21599432003D11BE /* OneSignalNotificationServiceExtension */,
 				B37053DA2107E85B00AAB26E /* Products */,
+				48A5B7F861064BCDFB8D1E8E /* Frameworks */,
+				AFEEBB8060DC4A6DA47F6FD6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		B37053DA2107E85B00AAB26E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */,
+				B37053D92107E85B00AAB26E /* FD Laundromat.app */,
 				B37053ED2107E85C00AAB26E /* Laundromat DelivrmatTests.xctest */,
 				B37053F82107E85D00AAB26E /* Laundromat DelivrmatUITests.xctest */,
+				B325A5AE21599432003D11BE /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +228,9 @@
 		B37053DB2107E85B00AAB26E /* Laundromat Delivrmat */ = {
 			isa = PBXGroup;
 			children = (
+				B325A5BC2159A259003D11BE /* Flurry */,
+				B3FC506021236D380075BE94 /* Laundromat Delivrmat.entitlements */,
+				B33DFEE1212464BF000ED065 /* bridge-header.h */,
 				B37053DC2107E85B00AAB26E /* AppDelegate.swift */,
 				B37053DE2107E85B00AAB26E /* ViewController.swift */,
 				B37053E02107E85B00AAB26E /* Main.storyboard */,
@@ -128,27 +262,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B37053D82107E85B00AAB26E /* Laundromat Delivrmat */ = {
+		B325A5AD21599432003D11BE /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B37054012107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat Delivrmat" */;
+			buildConfigurationList = B325A5B621599432003D11BE /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				B37053D52107E85B00AAB26E /* Sources */,
-				B37053D62107E85B00AAB26E /* Frameworks */,
-				B37053D72107E85B00AAB26E /* Resources */,
+				7D3C7CC5F4005E452C08D11E /* [CP] Check Pods Manifest.lock */,
+				B325A5AA21599432003D11BE /* Sources */,
+				B325A5AB21599432003D11BE /* Frameworks */,
+				B325A5AC21599432003D11BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = B325A5AE21599432003D11BE /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B37053D82107E85B00AAB26E /* Laundromat Delivrmat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37054012107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat Delivrmat" */;
+			buildPhases = (
+				EFE93775DF9EBDF0780AA41F /* [CP] Check Pods Manifest.lock */,
+				B37053D52107E85B00AAB26E /* Sources */,
+				B37053D62107E85B00AAB26E /* Frameworks */,
+				B37053D72107E85B00AAB26E /* Resources */,
+				B331745D21531758000A357F /* Embed Frameworks */,
+				B325A5B921599432003D11BE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B325A5B421599432003D11BE /* PBXTargetDependency */,
+			);
 			name = "Laundromat Delivrmat";
 			productName = "Laundromat Delivrmat";
-			productReference = B37053D92107E85B00AAB26E /* Laundromat Delivrmat.app */;
+			productReference = B37053D92107E85B00AAB26E /* FD Laundromat.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B37053EC2107E85C00AAB26E /* Laundromat DelivrmatTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B37054042107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatTests" */;
 			buildPhases = (
+				F8A88606345880CAF4476449 /* [CP] Check Pods Manifest.lock */,
 				B37053E92107E85C00AAB26E /* Sources */,
 				B37053EA2107E85C00AAB26E /* Frameworks */,
 				B37053EB2107E85C00AAB26E /* Resources */,
@@ -167,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B37054072107E85D00AAB26E /* Build configuration list for PBXNativeTarget "Laundromat DelivrmatUITests" */;
 			buildPhases = (
+				CEB34CAB5C9ECCFF658B68F2 /* [CP] Check Pods Manifest.lock */,
 				B37053F42107E85D00AAB26E /* Sources */,
 				B37053F52107E85D00AAB26E /* Frameworks */,
 				B37053F62107E85D00AAB26E /* Resources */,
@@ -187,12 +345,23 @@
 		B37053D12107E85B00AAB26E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "ICI Technologies";
 				TargetAttributes = {
+					B325A5AD21599432003D11BE = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					B37053D82107E85B00AAB26E = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B37053EC2107E85C00AAB26E = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -220,11 +389,19 @@
 				B37053D82107E85B00AAB26E /* Laundromat Delivrmat */,
 				B37053EC2107E85C00AAB26E /* Laundromat DelivrmatTests */,
 				B37053F72107E85D00AAB26E /* Laundromat DelivrmatUITests */,
+				B325A5AD21599432003D11BE /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B325A5AC21599432003D11BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B37053D72107E85B00AAB26E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,7 +428,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D3C7CC5F4005E452C08D11E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB34CAB5C9ECCFF658B68F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Laundromat DelivrmatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE93775DF9EBDF0780AA41F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Laundromat Delivrmat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A88606345880CAF4476449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Laundromat DelivrmatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B325A5AA21599432003D11BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B325A5B121599432003D11BE /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B37053D52107E85B00AAB26E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +556,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B325A5B421599432003D11BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B325A5AD21599432003D11BE /* OneSignalNotificationServiceExtension */;
+			targetProxy = B325A5B321599432003D11BE /* PBXContainerItemProxy */;
+		};
 		B37053EF2107E85C00AAB26E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B37053D82107E85B00AAB26E /* Laundromat Delivrmat */;
@@ -312,6 +593,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B325A5B721599432003D11BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2B7D0C5F654217DE92A25F /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B325A5B821599432003D11BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC27EED7A83229A3A73C2BF /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B37053FF2107E85D00AAB26E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +745,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -428,42 +755,85 @@
 		};
 		B37054022107E85D00AAB26E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B518AE95B672961639FC386C /* Pods-Laundromat Delivrmat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Laundromat Delivrmat/Laundromat Delivrmat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.1.1;
 				DEVELOPMENT_TEAM = SGX6S5JS57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Laundromat Delivrmat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+				);
+				MARKETING_VERSION = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FD Laundromat";
+				SWIFT_OBJC_BRIDGING_HEADER = "Laundromat Delivrmat/bridge-header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm7s arm64";
 			};
 			name = Debug;
 		};
 		B37054032107E85D00AAB26E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F1DC2152AC0B5AFDFF7450 /* Pods-Laundromat Delivrmat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Laundromat Delivrmat/Laundromat Delivrmat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.1.1;
 				DEVELOPMENT_TEAM = SGX6S5JS57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Laundromat Delivrmat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+					"$(PROJECT_DIR)/Laundromat\\ Delivrmat/Flurry/Flurry",
+				);
+				MARKETING_VERSION = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Laundromat-Delivrmat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FD Laundromat";
+				SWIFT_OBJC_BRIDGING_HEADER = "Laundromat Delivrmat/bridge-header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm7s arm64";
 			};
 			name = Release;
 		};
 		B37054052107E85D00AAB26E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25EE040BA746771179BA88D2 /* Pods-Laundromat DelivrmatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +855,7 @@
 		};
 		B37054062107E85D00AAB26E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C960EDF988D509C695A23069 /* Pods-Laundromat DelivrmatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +877,7 @@
 		};
 		B37054082107E85D00AAB26E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C222B13BCBC388CEFDD3E80C /* Pods-Laundromat DelivrmatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +898,7 @@
 		};
 		B37054092107E85D00AAB26E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEB67B811377E0E2795F958 /* Pods-Laundromat DelivrmatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +920,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B325A5B621599432003D11BE /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B325A5B721599432003D11BE /* Debug */,
+				B325A5B821599432003D11BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B37053D42107E85B00AAB26E /* Build configuration list for PBXProject "Laundromat Delivrmat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
